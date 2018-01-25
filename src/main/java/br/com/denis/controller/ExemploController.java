@@ -13,7 +13,7 @@ public class ExemploController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home (){
-		return "Ola Denis!!!!";
+		return "<h1>Ola Denis!!!!<h1>";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ExemploController.class, args);
